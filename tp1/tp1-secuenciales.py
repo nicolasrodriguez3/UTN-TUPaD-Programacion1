@@ -41,13 +41,13 @@ print(f"Equivale a {horas} horas y {minutos} minutos.")
 numero = int(input("Ingrese un número para ver su tabla de multiplicar: "))
 
 # Si no podria usar `for` usaria 1 `print` por cada número del 0 al 10
-for num in range(11):
+for num in range(1, 11):
     resultado = num * numero
     print(f"{numero} × {num} = {resultado}")
 
 
 # Ejercicio 7
-numero1 = int(input("Ingrese un número (distinto de 0): "))
+numero1 = int(input("Ingrese un número: "))
 numero2 = int(input("Ingrese otro número (distinto de 0): "))
 
 suma = numero1 + numero2
